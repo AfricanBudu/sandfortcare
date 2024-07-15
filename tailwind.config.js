@@ -17,7 +17,8 @@ export default {
         General_Sans: 'General Sans',
       },
       backgroundImage: {
-        'hero-image': "url('/images/hero section image.png')"
+        'hero-image': "url('/images/hero section image.png')",
+        'service': "url('/images/sandfortcare-services.png')"
       }
     },
   },
