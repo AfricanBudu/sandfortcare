@@ -4,6 +4,7 @@ import Mission from './assets/mission';
 import Goal from './assets/goal';
 import Benefit from './assets/benefit';
 import Service from './assets/service';
+import Step from './assets/step';
 
 function App() {
 
@@ -14,6 +15,7 @@ function App() {
       <Goal />
       <Benefit />
       <Service />
+      <Step />
     </>
   )
 }
