@@ -18,7 +18,8 @@ export default {
       },
       backgroundImage: {
         'hero-image': "url('/images/hero section image.png')",
-        'service': "url('/images/sandfortcare-services.png')"
+        'service': "url('/images/sandfortcare-services.png')",
+        'choose': "url('/images/choose.png')",
       }
     },
   },

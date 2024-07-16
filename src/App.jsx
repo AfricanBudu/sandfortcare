@@ -5,6 +5,7 @@ import Goal from './assets/goal';
 import Benefit from './assets/benefit';
 import Service from './assets/service';
 import Step from './assets/step';
+import Choose from './assets/choose';
 
 function App() {
 
@@ -16,6 +17,7 @@ function App() {
       <Benefit />
       <Service />
       <Step />
+      <Choose />
     </>
   )
 }
