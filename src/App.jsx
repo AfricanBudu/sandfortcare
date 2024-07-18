@@ -6,6 +6,7 @@ import Benefit from './assets/benefit';
 import Service from './assets/service';
 import Step from './assets/step';
 import Choose from './assets/choose';
+import Footer from './assets/footer';
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       <Service />
       <Step />
       <Choose />
+      <Footer />
     </>
   )
 }
