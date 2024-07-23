@@ -12,14 +12,14 @@ function App() {
 
   return (
     <>
-      {/* <Hero /> */}
+      <Hero />
       <Mission />
       <Goal />
       <Benefit />
       <Service />
       <Step />
-      <Choose />
-      <Footer />
+      {/* <Choose /> */}
+      {/* <Footer /> */}
     </>
   )
 }

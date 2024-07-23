@@ -2,7 +2,7 @@ import { Squash as Hamburger } from 'hamburger-react';
 
 const Hero = () => {
   return (
-    <div className="relative bg-hero-image bg-center bg-no-repeat px-[3.9vw] bg-cover w-full h-[100vh] sm:h-[50vh] text-[#FFFFFF]">
+    <div className="bg-hero-image bg-center bg-no-repeat px-[3.9vw] bg-cover w-full h-[100vh] sm:h-[50vh] text-[#FFFFFF]">
       <nav className="py-4 relative">
         <div className="relative flex justify-between items-center font-Regular_Grotesk">
             <div className=" font-Semibold_Grotesk capitalize font-bold text-bname text-[#DDDAC2] ">SANDFORTCARE</div>
@@ -14,7 +14,7 @@ const Hero = () => {
             </div>
         </div>
       </nav>
-        <div className="relative hero-text mt-[16vw] w-[600px]">
+        <div className="relative hero-text mt-[16vw] w-[60vw] sm:w-[80vw]">
             <p className="font-General_Sans font-medium text-hero-welcome lg:leading-[2.815rem]">
                 Caring for Seniors Across Borders, <br/>Compassionate elder care, no <br/>matter the distance.
             </p>
