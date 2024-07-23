@@ -18,8 +18,8 @@ function App() {
       <Benefit />
       <Service />
       <Step />
-      {/* <Choose /> */}
-      {/* <Footer /> */}
+      <Choose />
+      <Footer />
     </>
   )
 }

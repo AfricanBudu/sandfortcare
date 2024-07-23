@@ -1,7 +1,7 @@
 
 const Step = () => {
   return (
-    <div className="px-[3.89vw] my-32">
+    <div className="px-[3.89vw] my-[8.89vw]">
         <header className="font-Semibold_Grotesk text-header sm:text-start text-[#16656F] uppercase">
         Start The Journey To Your <br/>
         Parent&apos;s Wellbeing In 3 Steps

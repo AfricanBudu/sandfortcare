@@ -11,12 +11,17 @@ export default {
     },
     extend: {
       fontSize: {
-        'bname': 'clamp(13px, 2.2vw, 2rem)',
-        'hero-welcome': 'clamp(17px, 2.64vw, 2.375rem)',
-        'button': 'clamp(15px, 2.5vw, 2.25rem)',
+        'bname': 'clamp(17px, 2.2vw, 2rem)',
+        'hero-welcome': 'clamp(17px, 3vw, 2.375rem)',
+        'button': 'clamp(12px, 2.2vw, 2.25rem)',
         'mission1': 'clamp(15px, 3.33vw, 3rem)',
-        'header': 'clamp(16px, 3.33vw, 3rem)',
-        'goal': 'clamp(10px, 2.2vw, 2rem)',
+        'mission2': 'clamp(12px, 2.22vw, 3rem)',
+        'header': 'clamp(20px, 3.33vw, 3rem)',
+        'goal': 'clamp(14px, 2.2vw, 2rem)',
+        'missionNumber': 'clamp(30px, 5.6vw, 4rem)',
+        'missionNumberText': 'clamp(12px, 1.67vw, 2rem)',
+        'footerHeader': 'clamp(17px, 3.62vw, 3.5rem)',
+        'contactMsg': 'clamp(12px, 2.23vw, 2.5rem)',
       },
       fontFamily: {
         Extralight_Grotesk: 'Extralight Grotesk',

@@ -15,10 +15,10 @@ const Hero = () => {
         </div>
       </nav>
         <div className="relative hero-text mt-[16vw] w-[60vw] sm:w-[80vw]">
-            <p className="font-General_Sans font-medium text-hero-welcome lg:leading-[2.815rem]">
+            <p className="font-General_Sans font-medium text-hero-welcome lg:leading-[2.815rem] sm:leading-tight">
                 Caring for Seniors Across Borders, <br/>Compassionate elder care, no <br/>matter the distance.
             </p>
-            <div className="mt-[4vh]">
+            <div className="mt-[4vw]">
                 <button className="bg-[#16656F] font-General_Sans text-[#FFFFFF] font-medium flex items-center justify-center rounded-full px-[2.5vw] py-[0.83vw] text-button">Join us today</button>
             </div>
         </div>
