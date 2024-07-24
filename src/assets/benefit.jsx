@@ -31,17 +31,17 @@ const Benefit = () => {
       <header className="font-Semibold_Grotesk text-header leading-none text-[#16656F]">BENEFITS OF JOINING <br className="lg:hidden"/>US TODAY</header>
       <div className="flex justify-between items-center mt-8 gap-x-[2.22vw] text-start  sm:overflow-x-scroll">
         {benefits.map((item) => (
-            <div key={item.id} className="flex-1 bg-[#16656F] w-[29.24vw] h-[32.15vw] sm:min-w-[50vw] sm:w-[46.87vw] sm:h-[51.55vw] rounded-[1.67vw] p-[2.22vw] flex flex-col">
+            <div key={item.id} className="flex-1 bg-[#16656F] w-[29.24vw] h-[32.15vw] sm:min-w-[45vw] sm:w-[50.87vw] sm:h-[47.55vw] rounded-[1.67vw] sm:rounded-[3vw] p-[2.22vw] sm:p-[3vw] sm:py-[5vw] flex flex-col">
                 <div className="h-[40%]">
                     <div className="mb-[1.4vw]">
                         <img src={`/images/${item.icon}.png`} alt="" className="sm:w-4" />
                     </div>
                     <div className="">
-                        <header className="text-[#FFFFFF] font-semibold font-General_Sans text-[2.08vw] leading-none">{item.title}</header>
+                        <header className="text-[#FFFFFF] font-semibold font-General_Sans text-benefitTitle leading-none">{item.title}</header>
                     </div>
                 </div>
                 <div>
-                    <p className="text-[#D9D9D9] text-[1.73vw] leading-tight">{item.description}</p>
+                    <p className="text-[#D9D9D9] text-benefitDescription leading-tight">{item.description}</p>
                 </div>
             </div>
         ))}
