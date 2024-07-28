@@ -6,7 +6,7 @@ const Step = () => {
         Start The Journey To Your <br/>
         Parent&apos;s Wellbeing In 3 Steps
         </header>
-        <div className="grid my-[4.45vw] gap-y-[11.12vw]">
+        <div className="grid my-[4.45vw] place-items-center gap-y-[11.12vw]">
             <div className="flex justify-start items-center gap-x-[1.95vw]">
                 <div className="sm:w-[60%]">
                     <img src="/images/signup-image.png" alt="" />
