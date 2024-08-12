@@ -4,6 +4,11 @@
 
 
 @layer base {
+
+  .color-primary {
+    color: #16656F;
+  }
+
   @font-face {
     font-family: 'General Sans';
     src: 
@@ -65,6 +70,41 @@
     url('./Fonts/WEB/fonts/ClashGrotesk-Bold.woff') format('woff'),
     url('./Fonts/WEB/fonts/ClashGrotesk-Bold.ttf') format('truetype')
     ;
+  }
+}
+
+@layer components {
+
+  .plan-card {
+    @apply relative bg-[#1c7c8927] w-plan-card sm:w-[75vw] lg:w-[400px] sm:h-[350px] lg:h-[600px] monitor:h-[650px] pt-[13px] lg:pt-[5.6vw] md:pt-[80px] flex flex-col justify-between;
+  }
+
+  .plan-type {
+    @apply text-[20px] lg:text-[32px] text-[#494949];
+  }
+
+  .category {
+    @apply font-General_Sans font-medium text-[#7F7F7F] mt-1 lg:mt-3 text-[8px] lg:text-[17px];
+  }
+
+  .amount {
+    @apply text-amount lg:text-[38px] text-[#16656F] tracking-tighter;
+  }
+
+  .currency {
+    @apply text-currency text-[#6c6c6cb3] font-General_Sans font-medium;
+  }
+
+  .deliverables-list {
+    @apply flex items-center gap-x-4 text-[10px] lg:text-[14px] text-[#6C6C6C];
+  }
+
+  .deliverables-list-style {
+    @apply h-[7px] w-[7px] lg:h-[10px] lg:w-[10px] bg-[#494949] rounded-full
+  }
+
+  .plan-card-button {
+    @apply text-[23px] sm:text-xs sm:px-11 bg-primary px-[5vw] py-[10px] lg:py-[15px] text-white rounded-lg md:rounded-2xl
   }
 }
 
