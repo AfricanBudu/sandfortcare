@@ -84,7 +84,7 @@ const Register = () => {
 
       if (response.data && response.data.applicantToken) {
         localStorage.setItem("token", response.data.applicantToken);
-        console.log(response.data.applicantToken);
+        // console.log(response.data.applicantToken);
         navigate(`/pricing/${category}`);
       }
     } catch (error) {
