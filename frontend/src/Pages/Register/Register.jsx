@@ -116,21 +116,21 @@ const Register = () => {
             <div className="lg:flex sm:flex-col w-full justify-between">
               <label className="flex flex-col">
                 First Name
-                <input className="sm:w-full lg:w-[20vw] sm:bg-[#16656F] rounded-md sm:border-white/60 lg:border-black/20 border-[0.3px] py-1.5 pl-7 pr-20 text-gray-900 focus:ring-1 focus:ring-emerald-400 focus:outline-emerald-500" type="text" name="firstName" value={firstName} onChange={handleChange} required />
+                <input className="sm:w-full lg:w-[20vw] sm:bg-[#16656F] rounded-md sm:border-white/60 lg:border-black/20 border-[0.3px] py-1.5 pl-3 pr-10 text-gray-900 focus:ring-1 focus:ring-emerald-400 focus:outline-emerald-500" type="text" name="firstName" value={firstName} onChange={handleChange} required />
               </label>
               <label className="flex flex-col">
                 Last Name
-                <input className="sm:w-full lg:w-[20vw] sm:bg-[#16656F] rounded-md sm:border-white/60 lg:border-black/20 border-[0.3px] py-1.5 pl-7 pr-20 text-gray-900 focus:ring-1 focus:ring-emerald-400 focus:outline-emerald-500" type="text" name="lastName" value={lastName} onChange={handleChange} required />
+                <input className="sm:w-full lg:w-[20vw] sm:bg-[#16656F] rounded-md sm:border-white/60 lg:border-black/20 border-[0.3px] py-1.5 pl-3 pr-10 text-gray-900 focus:ring-1 focus:ring-emerald-400 focus:outline-emerald-500" type="text" name="lastName" value={lastName} onChange={handleChange} required />
               </label>
             </div>
             <div className="lg:flex sm:flex-col w-full justify-between">
               <label className="flex flex-col">
                 email
-                <input className="sm:w-full lg:w-[20vw] sm:bg-[#16656F] rounded-md sm:border-white/60 lg:border-black/20 border-[0.3px] py-1.5 pl-7 pr-20 text-gray-900 focus:ring-1 focus:ring-emerald-400 focus:outline-emerald-500" type="email" name="email" value={email} onChange={handleChange} required />
+                <input className="sm:w-full lg:w-[20vw] sm:bg-[#16656F] rounded-md sm:border-white/60 lg:border-black/20 border-[0.3px] py-1.5 pl-3 pr-10 text-gray-900 focus:ring-1 focus:ring-emerald-400 focus:outline-emerald-500" type="email" name="email" value={email} onChange={handleChange} required />
               </label>
               <label className="flex flex-col">
                 Phone Number
-                <input className="sm:w-full lg:w-[20vw] sm:bg-[#16656F] rounded-md sm:border-white/60 lg:border-black/20 border-[0.3px] py-1.5 pl-7 pr-20 text-gray-900 focus:ring-1 focus:ring-emerald-400 focus:outline-emerald-500" type="tel" name="phone" value={phone} onChange={handleChange} required />
+                <input className="sm:w-full lg:w-[20vw] sm:bg-[#16656F] rounded-md sm:border-white/60 lg:border-black/20 border-[0.3px] py-1.5 pl-3 pr-10 text-gray-900 focus:ring-1 focus:ring-emerald-400 focus:outline-emerald-500" type="tel" name="phone" value={phone} onChange={handleChange} required />
               </label>
             </div>
             <div className="flex w-full justify-between">
