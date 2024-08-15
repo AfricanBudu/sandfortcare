@@ -5,10 +5,12 @@
         "Anambra",
         "Bauchi",
         "Bayelsa",
+        "bname",
         "Borno",
         "Ebonyi",
         "Ekiti",
         "Gombe",
+        "Grotesk",
         "heroicons",
         "Ibom",
         "Jigawa",
@@ -20,7 +22,10 @@
         "Ogun",
         "Ondo",
         "Osun",
+        "tailwindcss",
         "Taraba",
+        "taviraj",
+        "Taviraj",
         "Yobe",
         "Zamfara"
     ]

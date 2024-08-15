@@ -18,6 +18,9 @@ export default {
       width: {
         'plan-card': 'clamp(300px, 27vw, 400px)',
       },
+      colors: {
+        'primary': '#16656F',
+      },
       fontSize: {
         'bname': 'clamp(17px, 2.2vw, 2rem)',
         'hero-welcome': 'clamp(17px, 3vw, 2.375rem)',
@@ -51,13 +54,13 @@ export default {
         General_Sans: 'General Sans',
       },
       backgroundColor: {
-        'primary': '#16656F'
+        'primary': '#16656F',
       },
       backgroundImage: {
         'hero-image': "url('/images/hero-section-image.png')",
         'service': "url('/images/sandfortcare-services.png')",
         'choose': "url('/images/choose.png')",
-      }
+      },
     },
   },
   plugins: [],

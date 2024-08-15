@@ -1,7 +1,9 @@
 import axiosInstance from "../../utils/axiosInstance";
 import Table from "../Admin/components/Table";
+import Sidebar from "./Sidebar";
 
 import { useState, useEffect } from "react";
+import TopBar from "./TopBar";
 
 
 const Dashboard = () => {
@@ -27,23 +29,11 @@ const Dashboard = () => {
   
 
   return (
-    <div>
-      <nav>
-        <div className="brand-name">Dashboard</div>
+    <div className="relative flex justify-between">
+      <Sidebar />
+      <div className="w-[77vw] flex justify-start gap-14 flex-col items-center pl-[2.5vw] pr-[3vw] overflow-y-scroll h-[calc(100vh-10px)]">
+        <TopBar />
         <div className="">
-          <div className="admin"></div>
-          <div className="notification-icon"></div>
-        </div>
-      </nav>
-      <div className="flex flex-col items-center">
-        <div className="">
-          <ul className="flex">
-            <li>All Users</li>
-            <li>Active</li>
-            <li>Inactive</li>
-          </ul>
-        </div>
-        <div className="relative w-[70vw]">
           <Table rows={applications} />
         </div>
       </div>

@@ -76,7 +76,7 @@
 @layer components {
 
   .plan-card {
-    @apply relative bg-[#1c7c8927] w-plan-card sm:w-[75vw] lg:w-[400px] sm:h-[350px] lg:h-[600px] monitor:h-[650px] pt-[13px] lg:pt-[5.6vw] md:pt-[80px] flex flex-col justify-between;
+    @apply relative bg-[#1c7c8927] w-plan-card sm:w-[75vw] lg:w-[399px] sm:h-[350px] lg:h-[600px] monitor:h-[650px] pt-[13px] lg:pt-[5.6vw] md:pt-[80px] flex flex-col justify-between;
   }
 
   .plan-type {
@@ -105,6 +105,10 @@
 
   .plan-card-button {
     @apply text-[23px] sm:text-xs sm:px-11 bg-primary px-[5vw] py-[10px] lg:py-[15px] text-white rounded-lg md:rounded-2xl
+  }
+
+  .admin-dp {
+    @apply w-[48px] h-[48px] rounded-full bg-gray-600
   }
 }
 

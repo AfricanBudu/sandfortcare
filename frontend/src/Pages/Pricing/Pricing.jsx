@@ -31,7 +31,7 @@ const PricingPage = () => {
             <div onClick={() => {setPaymentOPtion('annual')}}>Annual Payment</div>
           </ul>
         </div>
-        <div className="flex flex-wrap justify-center items-center mt-[2.4vw] mb-[5vw] lg:px-[4vw] font-Medium_Grotesk sm:gap-y-10 gap-[4.2vw]">
+        <div className="flex flex-wrap justify-center items-center mt-[2.4vw] mb-[5vw] lg:px-[4vw] font-Medium_Grotesk sm:gap-y-10 md:gap-y-5 gap-[4.2vw]">
           {selectedPlans.options.map((selectedPlan) => (
             <PlanCard key={selectedPlan.type}
               type={selectedPlan.type}

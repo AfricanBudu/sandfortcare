@@ -1,66 +1,49 @@
+import {
+  Table,
+  TableBody, 
+  TableCell, 
+  TableHead,
+  TableHeader,
+  TableRow,
+} from '@/components/ui/table'
 import PropTypes from 'prop-types'
+import { columns } from '../Utils/columns';
 
 const BasicTable = ({ rows }) => {
-  return (
-    <div className="relative overflow-x-auto">
-      <table className="w-full text-sm text-left text-gray-500">
-        <thead className="w-full gap-y-5 text-xs text-gray-700 uppercase">
-          <tr className="bg-[#D9D9D9]">
-            <th scope="col" className="px-6 py-3">
-              Full Name
-            </th>
-            <th scope="col" className="px-6 py-3">
-              Email Address
-            </th>
-            <th scope="col" className="px-6 py-3">
-              Phone
-            </th>
-            <th scope="col" className="px-6 py-3">
-              Parent
-            </th>
-            <th scope="col" className="px-6 py-3">
-              Age Range
-            </th>
-            <th scope="col" className="px-6 py-3">
-              State
-            </th>
-            <th scope="col" className="px-6 py-3">
-              Date Applied
-            </th>
-          </tr>
-        </thead>
-        <tbody className="w-full gap-y-5">
-          {rows.map((applicant) => {
-            return (
-              <tr key={applicant._id} className="bg-white border-b dark:bg-gray-800 dark:border-gray-700">
-                <th scope="row" className="px-6 py-4 font-medium text-gray-900 whitespace-nowrap dark:text-white">
-                  { `${applicant.lastName} ${applicant.firstName}` }
-                </th>
-                <td className="px-6 py-4">
-                  {applicant.email}
-                </td>
-                <td className="px-6 py-4">
-                  {applicant.phone}
-                </td>
-                <td className="px-6 py-4">
-                  {applicant.parent}
-                </td>
-                <td className="px-6 py-4">
-                  {applicant.ageRange}
-                </td>
-                <td className="px-6 py-4">
-                  {applicant.state}
-                </td>
-                <td className="px-6 py-4">
-                  {new Date(applicant.createdAt).toLocaleDateString()}
-                </td>
-            </tr>
-            )
-          })}
-        </tbody>
-      </table>
-    </div>
+  const data = rows.map(applicant => ({
+    id: applicant._id,
+    fullName: `${applicant.lastName} ${applicant.firstName}`,
+    email: applicant.email,
+    phone: applicant.phone,
+    parent: applicant.parent,
+    ageRange: applicant.ageRange,
+    state: applicant.state,
+    dateApplied: new Date(applicant.createdAt).toLocaleDateString(),
+  }))
 
+  return (
+    <Table className="font-General_Sans">
+        <TableHeader className="">
+          <TableRow className="bg-[#D9D9D9] rounded-lg">
+          {columns.map((column) => (
+            <TableHead key={column.accessorKey} className="font-semibold text-[#3a3a3aa5]">{column.header}</TableHead>
+          ))}
+        </TableRow>
+        <div className="w-full h-5" />
+      </TableHeader>
+      <TableBody>
+        {data.map((row) => (
+          <>
+          <div className="w-full h-3" />
+          <TableRow key={row.id} className="font-medium border-[0.4px] border-[#16656fa7]">
+            {columns.map((column) => (
+              <TableCell key={column.accessorKey} className="text-[#3a3a3aa5]">{row[column.accessorKey]}</TableCell>
+            ))}
+          </TableRow>
+          </>
+        ))}
+      </TableBody>
+    </Table>
   );
 }
 
