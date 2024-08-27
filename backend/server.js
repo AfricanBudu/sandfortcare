@@ -8,8 +8,8 @@ import adminRoutes from './routes/adminRoutes.js';
 dotenv.config();
 
 mongoose.connect(process.env.mongoDB_URL, {})
-  .then(() => console.log('Database connected successfully'))
-  .catch(err => console.log('Database connection error: ', err))
+    .then(() => console.log('Database connected successfully'))
+    .catch(err => console.log('Database connection error: ', err))
 
 
 const app = express();

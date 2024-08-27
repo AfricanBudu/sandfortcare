@@ -16,13 +16,13 @@ const Mission = () => {
         </div>
         <div className="flex justify-center items-center flex-1 font-medium text-missionNumberText sm:leading-none leading-[2.22vw] text-[#7A7878] gap-x-4">
             <div className="">
-                <p className="text-[#16656F] text-missionNumber leading-none font-semibold">4000+</p>
+                <p className="text-[#16656F] text-missionNumber sm:text-4xl leading-none font-semibold">4000+</p>
                 <p>
                 Hospitals & clinics <br/>available to clients
                 </p>
             </div>
             <div className="">
-                <p className="text-[#16656F] text-missionNumber leading-none font-semibold">36</p>
+                <p className="text-[#16656F] text-missionNumber sm:text-4xl leading-none font-semibold">36</p>
                 <p>
                 States included, <br/>nationwide delivery
                 </p>

@@ -27,7 +27,7 @@ export default {
         'button': 'clamp(12px, 2.2vw, 2.25rem)',
         'mission1': 'clamp(15px, 3.33vw, 3rem)',
         'mission2': 'clamp(12px, 2.22vw, 3rem)',
-        'header': 'clamp(20px, 3.33vw, 3rem)',
+        'header': 'clamp(24px, 3.33vw, 3rem)',
         'goal': 'clamp(14px, 2.2vw, 2rem)',
         'benefitTitle': 'clamp(12px, 2.08vw, 2.5rem)',
         'benefitDescription': 'clamp(11px, 1.73vw, 2.5rem)',

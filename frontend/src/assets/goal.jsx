@@ -8,7 +8,7 @@ const Goal = () => {
       </div>
       <div className="flex-1 font-General_Sans">
         <header className=" font-Semibold_Grotesk text-[#16656F] text-header leading-none sm:hidden">OUR GOAL</header>
-        <p className="font-medium text-goal text-[#1f1f1fb9] mt-[1.5vw] ">
+        <p className="font-medium text-goal text-[#1f1f1fb9] sm:text-justify mt-[1.5vw] ">
         Sandfortcare is dedicated to delivering holistic care for elderly parents, 
         encompassing their medical, emotional, and social needs. Our commitment to 
         fostering independence and ensuring safety is upheld by a nationwide team 
