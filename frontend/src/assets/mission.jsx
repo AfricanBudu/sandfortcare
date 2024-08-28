@@ -1,7 +1,7 @@
 
 const Mission = () => {
   return (
-    <div className="relative my-[4vw] px-[3.89vw] font-Medium_Grotesk">
+    <div className="relative my-[4vw] px-[3.89vw] font-General_Sans">
       <div className="">
         <p className=" font-semibold text-[#7A7878] text-mission1 sm:text-center w-[98%]">
             Sandfortcare, <span className="text-[#16656F]">pioneering Nigeria’s first elderly care solutions</span>, giving your <span className="text-[#16656F]">loved ones</span> the care they deserve.
