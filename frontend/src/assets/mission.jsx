@@ -9,21 +9,21 @@ const Mission = () => {
       </div>
       <div className="mt-[7.78vw] flex justify-center items-start sm:flex-col-reverse sm:items-center sm:gap-y-[3vw]">
         <div className="flex-1">
-            <p className=" font-medium text-[#16656F] text-mission2 sm:mt-[5vw]">
+            <p className=" font-medium text-[#16656F] text-mission2 sm:leading-5 sm:mt-[5vw]">
                 We are dedicated to providing comprehensive elderly care solutions in Nigeria, 
                 committed to delivering compassionate and personalized support for your loved ones.
             </p>
         </div>
-        <div className="flex justify-center items-center flex-1 font-medium text-missionNumberText sm:leading-none leading-[2.22vw] text-[#7A7878] gap-x-4">
+        <div className="flex justify-center items-center flex-1 font-medium text-missionNumberText leading-[2.22vw] text-[#7A7878] gap-x-[5.9vw] sm:gap-x-[7.3vw]">
             <div className="">
                 <p className="text-[#16656F] text-missionNumber sm:text-4xl leading-none font-semibold">4000+</p>
-                <p>
+                <p className="sm:leading-tight">
                 Hospitals & clinics <br/>available to clients
                 </p>
             </div>
             <div className="">
                 <p className="text-[#16656F] text-missionNumber sm:text-4xl leading-none font-semibold">36</p>
-                <p>
+                <p className="sm:leading-tight">
                 States included, <br/>nationwide delivery
                 </p>
             </div>
