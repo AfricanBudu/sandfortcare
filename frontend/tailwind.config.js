@@ -31,7 +31,7 @@ export default {
         'goal': 'clamp(14px, 2.2vw, 2rem)',
         'benefitTitle': 'clamp(12px, 2.08vw, 2.5rem)',
         'benefitDescription': 'clamp(11px, 1.73vw, 2.5rem)',
-        'missionNumber': 'clamp(30px, 5.6vw, 4rem)',
+        'missionNumber': 'clamp(34px, 5.6vw, 4rem)',
         'missionNumberText': 'clamp(12px, 1.67vw, 2rem)',
         'footerHeader': 'clamp(17px, 3.62vw, 3.5rem)',
         'contactMsg': 'clamp(12px, 2.23vw, 2.5rem)',
