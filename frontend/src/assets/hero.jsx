@@ -1,7 +1,10 @@
 import { Squash as Hamburger } from 'hamburger-react';
+import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
 const Hero = () => {
+  const [isOpen, setOpen] = useState(false)
+
   return (
     <div className="bg-hero-image bg-center bg-no-repeat px-[3.9vw] bg-cover w-full h-[100vh] sm:h-[50vh] text-[#FFFFFF]">
       <nav className="py-4 relative">
@@ -11,7 +14,11 @@ const Hero = () => {
             </div>
             <div>
                 <div className="lg:hidden">
-                  <Hamburger />
+                  <Hamburger 
+                    toggled={isOpen} 
+                    toggle={setOpen}
+                    size={20}
+                  />
                 </div>
                 <button type='submit' className="sm:hidden bg-[#16656F] font-General_Sans font-medium flex items-center justify-center rounded-full px-9 py-3 text-2xl">
                   <Link to={`register`}>Get started</Link>

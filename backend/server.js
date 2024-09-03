@@ -8,8 +8,8 @@ import adminRoutes from './routes/adminRoutes.js';
 dotenv.config();
 
 mongoose.connect(process.env.mongoDB_URL, {})
-  .then(() => console.log('Database connected successfully'))
-  .catch(err => console.log('Database connection error: ', err))
+    .then(() => console.log('Database connected successfully'))
+    .catch(err => console.log('Database connection error: ', err))
 
 
 const app = express();
@@ -18,7 +18,8 @@ const PORT = process.env.PORT || 5000;
 app.use(express.json());
 app.use(
     cors({
-        origin: ['https://sandfortcare-git-main-abdullahs-projects-3b40fa71.vercel.app', "*"],
+        origin: 'https://sandfortcare-abdullahs-projects-3b40fa71.vercel.app',
+        optionsSuccessStatus: 200
     })
 );
 

@@ -20,12 +20,12 @@ const router = createBrowserRouter([
   },
 
   {
-    path: "register",
+    path: "/register",
     element: <Register />,
   },
 
   {
-    path: "pricing",
+    path: "/pricing",
     element: <PricingPage />,
   },
 
@@ -34,12 +34,12 @@ const router = createBrowserRouter([
   },
   
   {
-    path: "admin/login",
+    path: "/admin/login",
     element: <AdminLogin />,
   },
 
   {
-    path: "admin/dashboard",
+    path: "/admin/dashboard",
     element: <Dashboard />
   }
 ]);
