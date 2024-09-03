@@ -19,7 +19,7 @@ app.use(express.json());
 app.use(
     cors({
         origin: 'https://sandfortcare-abdullahs-projects-3b40fa71.vercel.app',
-        optionsSuccessStatus: 200
+        optionsSuccessStatus: 200   
     })
 );
 
