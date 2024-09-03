@@ -18,7 +18,7 @@ const PORT = process.env.PORT || 5000;
 app.use(express.json());
 app.use(
     cors({
-        origin: ['https://sandfortcare-git-main-abdullahs-projects-3b40fa71.vercel.app', "*"],
+        origin: ['https://sandfortcare-abdullahs-projects-3b40fa71.vercel.app', "*"],
     })
 );
 
