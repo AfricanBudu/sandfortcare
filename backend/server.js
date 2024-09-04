@@ -18,18 +18,9 @@ const PORT = process.env.PORT || 5000;
 app.use(express.json());
 
 const corsOption = {
-    origin: function (origin, callback) {
-        const allowedOrigins = [
-            'https://sandfortcare-abdullahs-projects-3b40fa71.vercel.app',
-            'http://localhost:5173'
-        ];
-        
-        if (!origin || allowedOrigins.indexOf(origin) !== -1) {
-            callback(null, true);
-        } else {
-            callback(new Error('Not allowed by CORS'));
-        }
-    },
+    origin: process.env.NODE_ENV === 'production'
+        ? ['https://sandfortcare-abdullahs-projects-3b40fa71.vercel.app']
+        : true,
     optionsSuccessStatus: 200,
     credentials: true
 }
